@@ -5,8 +5,8 @@ cloud:
     stack:
       auto: false                 
     credentials:                      
-      access-key: AKIA4KZBE5Z7R76QLA6X
-      secret-key: 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            
+      access-key: 
+      secret-key:     
 logging:
   level:
     com:
@@ -16,3 +16,4 @@ logging:
         util:
           EC2MetadataUtils: error
                         
+## NOTA: Se quito el acces-key y el secret-key, debido a restricciones de AWS y GitHub
